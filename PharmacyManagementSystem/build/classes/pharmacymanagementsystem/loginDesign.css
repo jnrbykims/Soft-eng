@@ -1,0 +1,53 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 1, 2025, 12:24:55 AM
+    Author     : ASUS ROG
+*/
+
+.left-form{
+    -fx-background-color:linear-gradient(to bottom right,#2a7bcc, #0b916f);
+    -fx-border-color:#000;
+    -fx-border-width:.4px 0px .4px .4px;   
+}
+
+.right-form{
+    -fx-background-color:fff;
+    -fx-border-color:#000;
+    -fx-border-width:.4px 0px .4px .4px;  
+}
+
+.close{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.close:hover{
+    -fx-background-color:#c72b31;
+}
+
+.textfield{
+    -fx-background-color:transparent;
+    -fx-border-color:#000;
+    -fx-border-width:.4px;
+    -fx-border-radius:4px;
+    -fx-font-size:13px;
+    -fx-font-family:"Tahoma";
+}
+.textfield:focused{
+    -fx-border-color:linear-gradient(to bottom right, #2a7bcc, #0b916f);
+    -fx-border-width:1.4px;
+}
+
+.login-btn{
+    -fx-background-color:linear-gradient(to bottom right, #2a7bcc, #0b916f);
+    -fx-background-radius:15px;
+    -fx-cursor:hand;
+    -fx-font-size:14px;
+    -fx-text-fill:#fff;
+    -fx-font-family:"Arial";
+}
+.login-btn:hover{
+    -fx-background-color:linear-gradient(to bottom right, #5ea179, #3584b9);
+}
